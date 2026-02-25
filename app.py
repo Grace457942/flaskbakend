@@ -197,4 +197,4 @@ def mpesa_payment():
                 return jsonify({"message": "An MPESA Prompt has been sent to Your Phone, Please Check & Complete Payment"})
 
 
-
+app.run(debug=True)
